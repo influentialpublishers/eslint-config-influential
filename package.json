@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-influential",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "influential's shareable eslint config",
   "main": "index.js",
   "scripts": {
@@ -18,9 +18,13 @@
   "author": "Jonathan Lee <jlee@influential.co>",
   "license": "UNLICENSED",
   "peerDependencies": {
-    "eslint": ">=3"
+    "babel-eslint": "^7.2.3",
+    "eslint": ">=3",
+    "eslint-config-standard": "^10.2.1"
   },
   "devDependencies": {
-    "eslint": "^3.5.0"
+    "babel-eslint": "^7.2.3",
+    "eslint": "^3.5.0",
+    "eslint-config-standard": "^10.2.1"
   }
 }
