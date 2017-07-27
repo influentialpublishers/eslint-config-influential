@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jonajonlee/eslint-config-influential.git"
+    "url": "git+https://github.com/influentialpublishers/eslint-config-influential.git"
   },
   "keywords": [
     "eslint",
