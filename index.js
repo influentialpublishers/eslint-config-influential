@@ -3,14 +3,19 @@ module.exports = {
   "extends": [
     "plugin:flowtype/recommended",
     "standard",
+    "plugin:unicorn/recommended",
   ],
   "plugins": [
     "flowtype",
     "standard",
     "promise",
+    "unicorn",
   ],
   "rules": {
-    "comma-style": [ "error", "first" ],
+    "comma-style": [ "error", "last" ],
+    "comma-angle": [ "error", "always-multiline" ],
+    "prefer-const": [ "error" ],
+    "no-var": [ "error" ],
     "camelcase": 0,
     // We put exports first
     "import/first": 0,
