@@ -14,6 +14,9 @@ module.exports = {
   ],
   'rules': {
     'arrow-parens': ['error', 'always'],
+    'new-cap': [ 'warn', {
+      'capIsNew': true,
+    } ],
     'camelcase': 0,
     'comma-dangle': [ 'error', 'always-multiline' ],
     'flowtype/require-valid-file-annotation': [
