@@ -37,7 +37,7 @@ module.exports = {
     'import/no-namespace': 'error',
     'no-await-in-loop': [ 'error' ],
     'no-confusing-arrow': ['error', {'allowParens': true}],
-    'no-console': [ 'error', { 'allow': [ 'warn', 'error' ] } ],
+    'no-console': [ 'error', { 'allow': [ 'info', 'warn', 'error' ] } ],
     'no-implicit-coercion': [ 'error' ],
     'no-unused-vars': ['error', {
       'vars': 'all',
