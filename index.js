@@ -1,13 +1,10 @@
-// @noflow
 module.exports = {
   'parser': 'babel-eslint',
   'extends': [
-    'plugin:flowtype/recommended',
     'standard',
     'plugin:unicorn/recommended',
   ],
   'plugins': [
-    'flowtype',
     'standard',
     'promise',
     'unicorn',
@@ -19,16 +16,6 @@ module.exports = {
     } ],
     'camelcase': 0,
     'comma-dangle': [ 'error', 'always-multiline' ],
-    'flowtype/require-valid-file-annotation': [
-      2,
-      'always',
-      { 'annotationStyle': 'line' },
-    ],
-    'flowtype/type-id-match': [
-      2,
-      // Only enforce that it starts with a capital letter
-      '^[A-Z][a-z0-9]*',
-    ],
     'import/extensions': [ 'error', 'always', { 'js': 'never' } ],
     'import/newline-after-import': [ 'error' ],
     'import/no-internal-modules': [ 'error', {
