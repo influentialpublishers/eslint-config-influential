@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-influential",
-  "version": "4.0.0",
+  "version": "5.0.0",
   "description": "influential's shareable eslint config",
   "main": "index.js",
   "scripts": {
